@@ -6709,7 +6709,7 @@ Conheça abaixo, todos os meus comandos:*', 'reply_to_message_id' => $message_id
 
 
 
-define('WEBHOOK_URL', 'https://sitedeteste0142.github.io/sitedeteste0142/');
+define('WEBHOOK_URL', 'https://sitedeteste0142.github.io/sitedeteste0142/bot.php');
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
   apiRequest('setWebhook', array('url' => isset($argv[1]) && $argv[1] == 'delete' ? '' : WEBHOOK_URL));
